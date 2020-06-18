@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+#grid{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    /* background-color: rgba(131, 123, 161, 0.5); */
+    margin: 20px auto;
+}
+.cards{
+    width: calc(33.3% - 20px);
+    height: 300px;
+    background-color: coral;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin: 10px 10px;
+}
+.card-thumbnail{
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.card-desc{
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+}
+#detail-view{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+#video-div{
+    display: none;
+    margin: 0 auto;
+    width: 50%;
+    height: calc(100vh - 200px);
+    background-color: grey;
+    margin-top: 20px;
+}
+#video-player{
+    width: 100%;
+    height: 60%;
+}
+#views{
+    font-size: 30px;
+    margin: 0;
+}
+#video-title{
+    margin: 0;
+    font-size: 30px;
+}
+#video-desc{
+    font-size: 18px;
+}
